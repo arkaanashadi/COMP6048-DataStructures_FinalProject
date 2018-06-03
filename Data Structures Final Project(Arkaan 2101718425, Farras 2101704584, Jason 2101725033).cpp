@@ -260,7 +260,7 @@ void removemovies(vector<Movie>& movielist)
 {
     printmovies(movielist, "title");
     int index;
-	cout<<"Which movie would you like  of the movie you want to delete ?"<<endl;
+	cout<<"Which movie would you like to remove? (Input the number of the movie)"<<endl;
 	cin>>index;
     movielist.erase(movielist.begin()+(index-1));
 }
